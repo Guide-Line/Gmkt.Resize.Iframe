@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GMARKET</title>
+	<meta http-equiv="content-Type" content="text/html; charset=euc-kr" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" id="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width" />
+	<link rel="apple-touch-icon-precomposed" href="http://image.gmarket.co.kr/Gmarket_Mobile_Image/icon_01.png">
+	<style>
+		#p_wrapper{width:100%;max-width:640px;margin:0 auto;}
+	</style>
+	<script type="text/javascript" src="http://script.gmarket.co.kr/js/mobile/main/common/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="http://event.gmarket.co.kr/html/CD_Common/resize/gmkt.resize.iframe.js"></script>
+	<script>
+
+		$(document).ready(function(){
+
+			$("#ifr_sns").GmktResizeIframe({
+				type : "sns" // default;
+			});
+
+		});
+
+	</script>
+</head>
+<body>
+<div id="p_wrapper">
+	<iframe id="ifr_sns" src="http://mobile.gmarket.co.kr/Board?id=4534" width="100%" scrolling="no" frameborder="0" allowtransparency="true" style="width:100%"></iframe>
+</div>
+</body>
+</html>
