@@ -13,7 +13,7 @@ $(function($) {
         var GmktResizeIframe = function() {
 
             // only for GMKT Iframe
-            if ( ($ifr.attr("src").indexOf("gmarket") ) < 0 ) return;
+            if ( $ifr.attr("src").indexOf("gmarket") < 0 ) return;
 
             // Select Type
             if( settings.type == "sns" ){
