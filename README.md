@@ -2,7 +2,7 @@
 https://github.com/Guide-Line/Gmkt.Resize.Iframe
 
 ## Summary
-- G페이지내 Iframe접근시 Cross-Domain문제 해결을 위한 폴러그인
+- G페이지내 Iframe접근시 Cross-Domain문제 해결을 위한 플러그인
 - 클라이언트에서 작동 안함
 - 대상 Iframe 경로가 G페이지가 아닐때 작동 안함
 
@@ -29,12 +29,8 @@ https://github.com/Guide-Line/Gmkt.Resize.Iframe
 
 $(document).ready(function(){
 
-	$(document).ready(function(){
-
-		$("#ifr_sns").GmktResizeIframe({
-			type : "sns" // default;
-		});
-		
+	$("#ifr_sns").GmktResizeIframe({
+		type : "sns" // default;
 	});
 
 });
